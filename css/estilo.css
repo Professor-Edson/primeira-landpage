@@ -1,0 +1,194 @@
+/* reset do estilo padrao do html */
+* {
+    padding: 0px;
+}
+.header {
+    height: 400px;
+    background-image: url(/img/img-fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* estilo da navegacao bla bla bla */
+.header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* estilo do menu ul */
+.header nav .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+@media (max-width: 900px) {
+    .header nav .menu {
+        display: none;
+    }
+}
+/* estilo do link do menu no topo */
+.header nav .menu li a {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: white;
+}
+.header .container-textos {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header .container-textos h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+.header .container-textos p {
+    color: white;
+}
+ .button-try-for-free{
+    background: #2091F9;
+    border-radius: 35px;
+    text-decoration: none;
+    color: white;
+    padding: 16px 30px;
+    margin-top: 20px;
+}
+
+@media (max-width: 900px) {
+    .header .container-textos {
+        padding: 16px;
+    }
+}
+@media (max-width: 500px) {
+    .header nav .container-socails-buttons {
+        display: none;
+    }
+    .header .container-textos {
+        padding: 20px;
+            }
+}
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.section-1 h2 {
+font-size: 40px;
+}
+.section-1 p {
+    text-align: center;
+    margin: 10px;
+}
+.container-feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container-feature .container-feature-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    max-width: 200px;
+}
+.container-feature .container-feature-item h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container-feature .container-feature-item p{
+    text-align: center;
+}
+@media (max-width: 750px) {
+    .container-feature {
+        flex-direction: column;
+
+    }
+}
+.container-img-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-img-video img {
+    max-width: 60%;
+}
+.container-img-notebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.container-img-notebook .container-img-notebook-item  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-img-notebook .container-img-notebook-item p {
+ margin-bottom: 60px; 
+ padding-bottom: 16px;
+}
+.container-img-notebook-img {
+    max-width: 60%;
+}
+
+@media (max-width: 750px) {
+    .container-img-notebook {
+        flex-direction: column;
+        padding: 16px;
+
+    }
+}
+.container-notebook {
+    flex: none;
+    order:1;
+    align-self: center;
+    flex-grow: 0;
+}
+.container-notebook h3 {
+    display: center;
+text-align: center;
+}
+.container-notebook p {
+text-align: center;
+}
+.container-notebook > button {
+    background: #2091F9;
+    border-radius: 35px;
+    text-decoration: none;
+    color: white;
+    padding: 16px 30px;
+    margin-top: 20px;
+}
+.container-notebook .button-try-for-free {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 19px 39px;
+    gap: 64px;
+}
+.container-logomarca {
+display: flex;
+text-align: center;
+align-items: center;
+}
+.container-logomarca h2 {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+..container-logomarca p {
+
+}
